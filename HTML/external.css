@@ -1,0 +1,10 @@
+#sachin-div{
+    color: rgb(0, 255, 123);
+    border: 1px solid red;
+    padding: 10px 0px 2px 5px;
+    margin-bottom: 10px;
+}
+
+#dhoni-div{
+    border: 1px solid green;
+}

@@ -1,0 +1,17 @@
+<style>
+  #content{
+    color:blue;
+    background: red;
+  }
+</style>
+
+<button onclick="fn()">Click</button>
+<div id="content">react is a library</div>
+
+<script>
+  function fn() {
+    const eleRef=document.getElementById("content");
+    eleRef.style.color="red"
+    eleRef.style.background="yellow"
+  }
+</script>

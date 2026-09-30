@@ -1,0 +1,18 @@
+multiple ways to move elements in the dom
+position
+absolute,relative,sticky,fixed
+
+margin
+
+transform:translate(10px,20px)
+display:flex
+display:grid
+
+
+
+position absolute
+1.element removes space from the dom
+2.it changes it's behaviour, block to inline
+3.it takes immediate parent as a reference only when if the parent has position other than
+static
+4.we could able to apply top, right, bottom and left properties

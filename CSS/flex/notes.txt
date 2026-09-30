@@ -1,0 +1,24 @@
+flexbox is a css layout sytem used to arrange,align,distribute, and resize elements
+efficiently within a container.
+
+
+display:flex;
+
+we have two axis
+main and cross
+main axis decided by flex direction property
+if flex direction is row then the main axis will row and cross axis will be column
+similary flex direction is column then the main axis will be column and cross axis will be row
+
+the default value of flex direction is row
+flex-direction:row/row-reverse/column/column-reverse;
+
+
+flex-wrap and the default value is nowrap
+flex-wrap:wrap/wrap-reverse;
+
+justify content used to control how flex items are positioned and spaced along the main axis of a flex
+container.
+it always follow main axis
+
+justify-content:start/end/center/space-between/space-around/space-evenly;

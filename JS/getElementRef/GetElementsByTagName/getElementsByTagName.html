@@ -1,0 +1,14 @@
+<div>Sachin</div>
+<div>Dhoni is from Ranchi</div>
+<div>Panth is from India</div>
+<button onclick="changeStyle()">Click</button>
+
+<script>
+    function changeStyle(){
+      const elements= document.getElementsByTagName("div")/*3 elements*/
+      elements[2].style.display="none"
+      elements[0].style.fontStyle="italic"
+      elements[0].style.fontWeight="bold"
+    }
+</script>
+

@@ -1,0 +1,18 @@
+<fieldset>
+    <label>Gender::</label>
+    <label>Male<input type="radio" name="gender"/></label>
+    <label>Female<input type="radio" name="gender"/></label>
+</fieldset>
+Name::<input/>
+<button onclick="f1()">Male Button Checked</button>
+<button onclick="f2()">Female Button Checked</button>
+
+<script>
+  const radioBtns=document.getElementsByName("gender")
+  function f1(){
+     radioBtns[0].checked="true"
+  }
+  function f2(){
+     radioBtns[1].checked="true"
+  }
+</script>

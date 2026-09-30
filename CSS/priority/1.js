@@ -1,0 +1,1 @@
+alert("I'm loading exteranl js into html")
