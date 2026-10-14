@@ -1,0 +1,13 @@
+
+<button onclick="fn.call(obj)">Click me</button>
+
+
+<script>
+    const obj={
+        name:"sachin",
+        loc:"mumbai"
+    }
+    function fn(){
+        console.log(`I'm ${this.name} , I'm from ${this.loc}`) 
+    }
+</script>

@@ -1,0 +1,13 @@
+<script>
+  const obj = {
+    name: "sachin",
+    loc: "mumbai",
+  };
+  function fn() {
+    console.log(this,"current object")
+    console.log(`I'm ${this.name} , I'm from ${this.loc}`);
+  }
+
+ setTimeout(fn.bind(obj),2000)
+
+</script>

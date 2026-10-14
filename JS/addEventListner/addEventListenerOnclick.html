@@ -1,0 +1,18 @@
+<button id="btn-ele" name="btn-tag">Click me</button>
+
+<script>
+  const obj = {
+    name: "sachin",
+    loc: "mumbai",
+  };
+  function fn() {
+    alert("fn called")
+    console.log(this,"current object")
+    console.log(`I'm ${this.name} , I'm from ${this.loc}`);
+  }
+
+  const btnRef = document.getElementById("btn-ele");
+
+   btnRef.addEventListener("click", fn.bind(obj));
+
+</script>
