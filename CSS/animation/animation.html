@@ -1,0 +1,22 @@
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: moveBox 1s infinite;
+  }
+
+  @keyframes moveBox {
+    10% {
+       transform: translateX(10px);
+    }
+    20% {
+    transform:scale(2) translateX(100px);
+    }
+    100%{
+       transform: rotate(55deg) translateX(200px);
+       background: yellow;
+    }
+  }
+</style>
+<div class="box"></div>
