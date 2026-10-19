@@ -1,0 +1,14 @@
+async — Execute as soon as downloaded
+- Downloads JavaScript while HTML is being parsed.
+- Executes immediately when the download finishes.
+- May interrupt HTML parsing.
+- Execution order is not guaranteed for multiple scripts.
+
+defer — Execute after HTML parsing
+- Downloads JavaScript while HTML is being parsed.
+- Waits until HTML parsing is complete before executing.
+- Preserves the order of deferred scripts.
+- Executes before the DOMContentLoaded event.
+
+
+https://jsonplaceholder.typicode.com/
