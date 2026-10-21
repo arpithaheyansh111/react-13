@@ -1,0 +1,11 @@
+<script>
+    const obj=new XMLHttpRequest()
+    obj.open("GET","https://jsonplaceholder.typicode.com/posts")
+    obj.send()
+    obj.onload=function(){
+        console.log(obj.responseText,"success")
+    }
+    obj.onerror=function(){
+         console.log(obj.responseText,"failure")
+    }
+</script>
