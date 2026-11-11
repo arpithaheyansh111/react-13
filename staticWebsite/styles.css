@@ -73,7 +73,7 @@ body {
   background: transparent;
   color: white;
   cursor: pointer;
-  position: relative;
+  position:relative;
 }
 .content button span {
   background: blue;
@@ -82,7 +82,7 @@ body {
   position: absolute;
   border-radius: 25px;
   left: 0;
-  top: 0;
+  bottom: 0;
   transition: 0.5s;
 }
 
