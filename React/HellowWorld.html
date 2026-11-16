@@ -5,8 +5,20 @@
 <div id="root"></div>
 
 <script type="text/babel">
+  function Card(){
+    return <div>
+      card</div>
+  }
   function Welcome() {
-    return <div>Welcome to Step up!</div>;
+    return <div>Welcome to Step up!<Card/></div>;
+  }
+
+  function Payment(){
+    return <div>Payment</div>
+  }
+
+  function Search(){
+    return <div>Search</div>
   }
 
   function App() {
@@ -14,6 +26,8 @@
       <span>
         <div>Hellow World</div>
         <Welcome />
+        <Search/>
+        <Payment/>
       </span>
     );
   }
