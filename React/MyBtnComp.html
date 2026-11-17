@@ -1,0 +1,24 @@
+<script src="react.development.js"></script>
+<script src="react-dom.development.js"></script>
+<script src="babel.js"></script>
+
+<div id="root"></div>
+
+<script type="text/babel">
+  function MyButton({ bn }) {
+    return <button>I'm {bn} button</button>;
+  }
+
+  function MyApp() {
+    return (
+      <div>
+        <h1>Welcome to my app</h1>
+        <MyButton bn="login" />
+        <MyButton bn="logout" />
+        <MyButton bn="signup" />
+      </div>
+    );
+  }
+
+  ReactDOM.render(<MyApp />, document.getElementById("root"));
+</script>

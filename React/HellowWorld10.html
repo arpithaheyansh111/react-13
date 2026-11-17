@@ -8,16 +8,16 @@
   function App() {
     return (
       <div>
-        <Hellow name="sachin" />
-        <Hellow name="Dhoni" />
-        <Hellow name="Panth" />
-        <Hellow name="Kohli" />
+      <Welcome pn="sachin" loc="mumbia"/>
+      <Welcome pn="dhoni" loc="ranchi"/>
+      <Welcome pn="kohli" loc="delhi"/>
+      <Welcome pn="dravid" loc="mp"/>
       </div>
     );
   }
 
-  function Hellow({ name }) {
-    return <div>Welcome {name}</div>;
+  function Welcome({pn,loc}) {
+    return <div>Hey! Welcome {pn},from {loc}</div>;
   }
 
   ReactDOM.render(<App />, document.getElementById("root"));
